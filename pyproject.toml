@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "annabelle"
+version = "0.1.0"
+description = "Parse string time expressions into date time object."
+authors = [
+    { name = "Georgy Pliev", email = "howluwqz1@gmail.com" },
+]
+keywords = ["time", "parser", "datetime"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.14",
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "defusedxml>=0.7.1",
+    "mawo-pymorphy3>=1.0.4",
+]
